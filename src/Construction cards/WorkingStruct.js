@@ -8,7 +8,7 @@ const work = [
   {
     image:sketch,
     title:'Plan',
-    body:' To find the perfect location, we work with you and gain an understanding of your needs',
+    body:' We work with you and gain an understanding of your needs',
   },
   {
     image:design,
@@ -17,13 +17,13 @@ const work = [
   },
   {
     image:build,
-    title:'Building',
+    title:'Production',
     body:' As soon as you have your plans in place, we start construction using durable, low-maintenance, environmental friendly materials.',
   },
   {
     image:finish,
     title:'Finish',
-    body:' To find the perfect location, we work with you and gain an understanding of your needs',
+    body:' We finish all the details according to the plan we had layed out',
   },
 ]
 export default work;

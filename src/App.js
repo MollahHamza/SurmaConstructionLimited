@@ -5,7 +5,7 @@ import './Service.css'
 import 'flowbite';
 import './Construct.css'
 // import Card1 from './cards/Card1';
-import About from './components/About';
+// import About from './components/About';
 import Home from './components/Home';
 import Service from './components/Service';
 import Contact from './components/Contact';
@@ -23,7 +23,7 @@ function App(){
       <Routes >
     
         <Route path='/' element={<Home />} />
-        <Route path='/about' element={<About />} />
+        {/* <Route path='/about' element={<About />} /> */}
         <Route path='/service' element={<Service />} />
         <Route path='/construction' element={<Construct />} />
         <Route path='/contact' element={<Contact />} />

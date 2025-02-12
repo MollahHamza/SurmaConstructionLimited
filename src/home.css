@@ -1,0 +1,8 @@
+/* Target the tagline text */
+#tag {
+    font-size: 28px;  /* Adjust this value to make it bigger or smaller */
+    color: #3f04ff;  /* Optional: Adjust the color */
+    font-weight: bold;  /* Optional: Adjust the weight */
+    text-align: center;  /* Optional: Center the text */
+  }
+  

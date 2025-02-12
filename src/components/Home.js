@@ -7,6 +7,7 @@ import Nav from './Nav'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'flowbite';
+import '../home.css'
 
 import PageProgress from 'react-page-progress';
 
@@ -27,15 +28,16 @@ export default function Home() {
 
         <div class="title">
             <span class="block"></span>
-            <h1>Shreeram<span></span></h1>
+            <h1>Surma<span></span></h1>
         </div>
 
         <div class="role">
             <div class="block"></div>
-            <p>Architect and Construction</p>
+            <p>Construction Limited</p>
         </div>
         <div className="getstart">
-        <a href="#abouts" id='star'>Get Started </a>
+        <a href="/service" id='star'>Get Started </a>
+        
         </div>
         <div class="tagline" data-aos="fade-down"
      data-aos-easing="linear"
@@ -49,9 +51,9 @@ export default function Home() {
   </h1>
 </div>
 
-<About />
+
 <Card />
-<Icard1 />
+
 <Footer />
 
     </div>

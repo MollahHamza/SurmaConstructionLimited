@@ -2,18 +2,14 @@ import React from "react";
 import Nav from "./Nav";
 import arrow from "../assets/arrow.gif";
 import Footer from "./Footer";
-import img1 from "../assets/img1.png";
-import img2 from "../assets/img2.png";
-import img3 from "../assets/img3.png";
-import img4 from "../assets/img4.png";
-import img5 from "../assets/img5.png";
-import img6 from "../assets/img6.png";
+
 // services img
-import elevation from "../svgicons/Elevaton.png";
-import house from "../svgicons/housemap.png";
-import int from "../svgicons/interior.png";
-import structure from "../svgicons/structure.png";
-import permit from "../svgicons/permit.png";
+import labour from "../svgicons/labouricon.png";
+import carpenter from "../svgicons/carpentericon.png";
+import electrician from "../svgicons/electricianicon.png";
+import plumber from "../svgicons/plumbericon.png";
+import Supervisor from "../svgicons/supervisoricon.png";
+import Shopfitter from "../svgicons/shopfittericon.png";
 import PageProgress from "react-page-progress";
 
 export default function Service() {
@@ -46,54 +42,6 @@ export default function Service() {
               your home in addition to making it a place to live.{" "}
             </p>
           </div>
-          <div class="flex flex-wrap md:-m-2 -m-1">
-            <div class="flex flex-wrap w-1/2">
-              <div class="md:p-2 p-1 w-1/2">
-                <img
-                  alt="gallery"
-                  class="w-full object-cover h-full object-center block"
-                  src={img1}
-                />
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img
-                  alt="gallery"
-                  class="w-full object-cover h-full object-center block"
-                  src={img2}
-                />
-              </div>
-              <div class="md:p-2 p-1 w-full">
-                <img
-                  alt="gallery"
-                  class="w-full h-full object-cover object-center block"
-                  src={img3}
-                />
-              </div>
-            </div>
-            <div class="flex flex-wrap w-1/2">
-              <div class="md:p-2 p-1 w-full">
-                <img
-                  alt="gallery"
-                  class="w-full h-full object-cover object-center block"
-                  src={img4}
-                />
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img
-                  alt="gallery"
-                  class="w-full object-cover h-full object-center block"
-                  src={img5}
-                />
-              </div>
-              <div class="md:p-2 p-1 w-1/2">
-                <img
-                  alt="gallery"
-                  class="w-full object-cover h-full object-center block"
-                  src={img6}
-                />
-              </div>
-            </div>
-          </div>
         </div>
         {/* services */}
         <section class=" servicesec text-gray-600 body-font">
@@ -107,14 +55,16 @@ export default function Service() {
               </div>
               <div class="flex-grow md:pl-10 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                 <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                  <img src={elevation} alt="elevation" height={50} />
+                  <img src={labour} alt="elevation" height={50} />
                 </div>
                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                    3D Elevation
+                    General Laborer
                   </h2>
                   <p class="leading-relaxed">
-                  3D elevation is a digital representation of the height and shape of a terrain or object, including its natural and man-made features.
+                    Duties: Assist with various tasks on-site, including loading
+                    materials and cleaning.<br></br>
+                    Skills: Physical fitness, teamwork, basic tools knowledge.
                   </p>
                 </div>
               </div>
@@ -128,14 +78,16 @@ export default function Service() {
               </div>
               <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                 <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                  <img src={house} alt="elevation" height={50} />
+                  <img src={carpenter} alt="elevation" height={50} />
                 </div>
                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                    Vastu wise house and shop Architecture
+                    Carpenter
                   </h2>
                   <p class="leading-relaxed">
-                  Vastu-based architecture for houses and shops aims to create a harmonious and balanced living or working environment
+                    Duties: Build and repair structures, frameworks, and
+                    fixtures.<br></br>
+                    Skills: Precision, blueprint reading, hand tools proficiency.
                   </p>
                 </div>
               </div>
@@ -149,14 +101,16 @@ export default function Service() {
               </div>
               <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                 <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                  <img src={int} alt="elevation" height={50} />
+                  <img src={electrician} alt="elevation" height={50} />
                 </div>
                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                    3D Interior Design
+                    Electrician[Service unavailable at this moment]
                   </h2>
                   <p class="leading-relaxed">
-                  Our 3D interior design services bring your vision to life by creating immersive and photorealistic renderings that enable you to experience your dream space before it's built
+                    Duties: Install and maintain electrical systems.<br></br>
+                    Skills: Knowledge of wiring systems, problem-solving,
+                    safety protocols.
                   </p>
                 </div>
               </div>
@@ -170,14 +124,16 @@ export default function Service() {
               </div>
               <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                 <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                  <img src={structure} alt="elevation" height={50} />
+                  <img src={plumber} alt="elevation" height={50} />
                 </div>
                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                    Structure Design
+                    Plumber
                   </h2>
                   <p class="leading-relaxed">
-                  Structure design is the art and science of creating safe, efficient, and aesthetically pleasing structures, from skyscrapers and bridges to houses and furniture
+                    Duties: Install and repair piping systems for water and
+                    gas.<br></br>
+                    Skills: Technical expertise, attention to detail, code knowledge.
                   </p>
                 </div>
               </div>
@@ -191,14 +147,38 @@ export default function Service() {
               </div>
               <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
                 <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
-                  <img src={permit} alt="elevation" height={50} />
+                  <img src={Supervisor} alt="elevation" height={50} />
                 </div>
                 <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                   <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                    Building permit
+                    Site Supervisor
                   </h2>
                   <p class="leading-relaxed">
-                  We offer building permit services to ensure compliance with local building codes, regulations, and safety standards for construction and renovation projects
+                    Duties: Supervise daily operations on-site, ensure safety
+                    standards.<br></br>
+                    Skills: Team management, safety regulations knowledge, logistics.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
+              <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
+                <div class="h-full w-1 bg-gray-700 pointer-events-none"></div>
+              </div>
+              <div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm">
+                6
+              </div>
+              <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+                <div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center">
+                  <img src={Shopfitter} alt="elevation" height={50} />
+                </div>
+                <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
+                  <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
+                    shopfitter
+                  </h2>
+                  <p class="leading-relaxed">
+                    Duties: Works to fit counter tops and shelves.<br></br>
+                    Skills: expertise in joinery and carpentry Skills.
                   </p>
                 </div>
               </div>

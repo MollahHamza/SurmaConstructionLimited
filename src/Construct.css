@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppinsdisplay=swap');
 
 .const{
-  background-image: url("./assets/constructionbg.png");
+  background-image: url("./assets/constructionbg.jpg");
   background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -12,13 +12,13 @@
   font-family: 'Montserrat';
 font-style: normal;
 font-weight: 800;
-font-size: 60px;
+font-size: 70px;
 line-height: 73px;
-margin-top: 2rem;
+margin-top: 7rem;
 text-align: center;
 text-transform: capitalize;
 
-color: #DEE1EA;
+color: #000000;
 }
 .work{
   background-image: linear-gradient(#1E242D,#222831);
@@ -160,8 +160,8 @@ flex-direction: column;
 }
 /* testimonial */
 .testtc{
-  width: 650px;
-height: 430px;
+  width: 430px;
+height: 350px;
 left: 124px;
 top: 2988px;
 
@@ -195,7 +195,7 @@ display: flex;
 padding: 0em 4em 2em;
 margin-top: -3em;
 align-items: center;
-text-align: center;
+text-align: end;
 text-transform: capitalize;
 
 color: #FFFFFF;
@@ -208,6 +208,7 @@ font-weight: 600;
 font-size: 20px;
 line-height: 30px;
 /* identical to box height */
+margin-top: 20px;
 
 display: flex;
 align-items: center;
@@ -217,6 +218,24 @@ text-transform: capitalize;
 
 color: #FFFFFF;
 }
+.byname2{
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  text-transform: capitalize;
+  
+  color: #FFFFFF;
+  }
 /* video cards */
 
 .context{
@@ -224,7 +243,7 @@ color: #FFFFFF;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 700;
-font-size: 62px;
+font-size: 40px;
 line-height: 93px;
 /* width: 900px; */
 margin: 0 20%;
@@ -267,7 +286,7 @@ body{
   }
   .card{
     position: relative;
-    width: 300px;
+    width: 390px;
     height: 350px;
     background-color: #000000;
     background-image: linear-gradient(#1E242D,#222831);
