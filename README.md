@@ -1,6 +1,6 @@
 # Surma Construction Limited Website
 
-This is the official website of [Surma Construction Limited](https://surmaconstructionlimited.com), built using React and CSS.
+This is the official website made for [Surma Construction Limited](https://surmaconstructionlimited.com), built using React and CSS.
 
 ## How to Run
 
